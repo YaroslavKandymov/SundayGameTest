@@ -7,7 +7,7 @@
             public static string Idle = nameof(Idle);
             public static string Speed = nameof(Speed);
             public static string Jump = nameof(Jump);
-            public static string AttackPose = nameof(AttackPose);
+            public static string Shoot = nameof(Shoot);
         }
     }
 }

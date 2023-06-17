@@ -24,7 +24,7 @@ namespace SundaygameTest.TaskTwo.Scripts.AnimationPlayers
         
         public void PlayShootAnimation()
         {
-            
+            _animator.SetTrigger(HumanoidAnimatorController.Params.Shoot);
         }
     }
 }

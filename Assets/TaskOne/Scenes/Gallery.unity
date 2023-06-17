@@ -1039,7 +1039,7 @@ MonoBehaviour:
   _cell: {fileID: 8590742046897964963, guid: b41fa4aca057cc446bd54b7f0bccf6f7, type: 3}
   _parent: {fileID: 741765434}
   _scrollRect: {fileID: 1221683540}
-  spawnThreshold: 1
+  spawnThreshold: 0.8
 --- !u!114 &1411061315
 MonoBehaviour:
   m_ObjectHideFlags: 0

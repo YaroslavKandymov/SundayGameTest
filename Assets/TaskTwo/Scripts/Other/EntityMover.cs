@@ -12,6 +12,11 @@ namespace SundaygameTest.Other
 
         private IMoveComponent _moveComponent;
         
+        private void Awake()
+        {
+            _moveComponent = _entity.Get<IMoveComponent>();
+        }
+        
         private void OnEnable()
         {
             _joystickInput.Moved += OnMoved;
@@ -22,11 +27,6 @@ namespace SundaygameTest.Other
             _joystickInput.Moved -= OnMoved;
         }
 
-        private void Start()
-        {
-            _moveComponent = _entity.Get<IMoveComponent>();
-        }
-        
         private void OnMoved(Vector2 value)
         {
             _moveComponent.Move(value);

@@ -29,10 +29,6 @@ namespace SundaygameTest
                 Texture2D texture = DownloadHandlerTexture.GetContent(request);
                 TextureLoaded?.Invoke(texture);
             }
-            else
-            {
-                Debug.LogError("End");
-            }
         }
     }
 }
